@@ -9,13 +9,22 @@ const NoteSection = (props) => {
   const context = useContext(NoteContext);
   const { notes, getNotes, editNote } = context;
   const navigate = useNavigate();
+  // useEffect(() => {
+  //   if (localStorage.getItem('authToken')) {
+  //     getNotes();
+  //   } else {
+  //     navigate("/Login");
+  //   }
+  // }, [])
   useEffect(() => {
     if (localStorage.getItem('authToken')) {
       getNotes();
     } else {
       navigate("/Login");
     }
-  }, [])
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [getNotes, navigate])
+
   const ref = useRef(null);
   const refClose = useRef(null);
   const [note, setNotes] = useState({

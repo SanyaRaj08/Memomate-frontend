@@ -40,7 +40,10 @@ const Signup = (props) => {
   return (
     <>
       <div className="image-container">
-        <img className="form-image" src={form_img} alt="Image" />
+      
+        {/* <img className="form-image" src={form_img} alt="Image" /> */}
+        <img className="form-image" src={form_img} alt="A description of the signup content" />
+
         <div className="text-overlay-signup">
           <form onSubmit={handleSubmit}>
             <div className="mb-3">

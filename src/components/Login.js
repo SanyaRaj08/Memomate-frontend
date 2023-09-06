@@ -39,7 +39,7 @@ const Login = (props) => {
   return (
     <>
       <div className="image-container-login">
-        <img className="login-img" src={login_img} alt="Image" />
+        <img className="login-img" src={login_img} alt="ImG" />
         <div className="text-overlay">
           <form onSubmit={handleSubmit}>
             <div className="mb-3">
