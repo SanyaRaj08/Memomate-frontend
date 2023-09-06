@@ -60,6 +60,7 @@ const Signup = (props) => {
                 onChange={onchange}
                 name="userName"
                 required
+                placeholder="min_length should be 5"
                 minLength={5}
               />
             </div>
@@ -93,6 +94,7 @@ const Signup = (props) => {
                 onChange={onchange}
                 name="password"
                 required
+                placeholder="min_length should be 5"
                 minLength={5}
               />
             </div>

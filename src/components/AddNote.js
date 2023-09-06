@@ -36,9 +36,10 @@ const AddNote = (props) => {
             </label>
             <input
               type="text"
-              className="form-control"
+              className="frm-control form-control"
               id="title"
               name="title"
+              placeholder="min length should be 5"
               value={notes.title}
               onChange={onchange}
               minLength={5}
@@ -48,26 +49,28 @@ const AddNote = (props) => {
               Content
             </label>
             <textarea
-              className="content-section form-control"
+              className="content-section frm-control form-control"
               id="content"
               name="content"
               value={notes.content}
               onChange={onchange}
+              placeholder="min length should be 5"
               minLength={5}
               required
               rows={4}
             />
 
-            <label htmlFor="exampleInputPassword1" className="form-label">
+            <label htmlFor="exampleInputPassword1" className=" form-label">
               Tag
             </label>
             <input
               type="text"
-              className="form-control"
+              className="frm-control form-control"
               id="tags"
               name="tags"
               onChange={onchange}
               value={notes.tags}
+              placeholder="min length should be 3"
               minLength={3}
               required
             />

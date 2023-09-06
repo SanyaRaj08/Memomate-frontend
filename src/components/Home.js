@@ -2,6 +2,7 @@ import React from "react";
 import "./home.css";
 import home_img1 from "./home_img1.png";
 import { Link } from "react-router-dom";
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
   return (
@@ -16,8 +17,19 @@ const Home = () => {
           </div>
           <div className="mx-5 txt">
             <h5>
-                  "  Unlock Your Productivity with MemoMate , Your Personal Digital Notebook.",
-                
+              {/* "  Unlock Your Productivity with MemoMate , Your Personal Digital Notebook.", */}
+              <Typewriter
+                options={{
+                  delay: 50, // This sets the delay between each character
+                }}
+                onInit={(typewriter) => {
+                  typewriter
+                    .typeString(
+                      "Unlock Your Productivity with MemoMate, Your Personal Digital Notebook."
+                    )
+                    .start();
+                }}
+              />
             </h5>
           </div>
           <div className="mx-5 my-5 row">

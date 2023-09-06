@@ -9,6 +9,10 @@
   height: 500px;
   opacity: 0.2;
 } 
+.frm-control{
+  color: grey;
+  font-size: smaller;
+}
 .text-overlay-signup {
   width: 350px;
   height: 400px;
