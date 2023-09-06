@@ -2,7 +2,7 @@ import React from "react";
 import "./home.css";
 import home_img1 from "./home_img1.png";
 import { Link } from "react-router-dom";
-import Typed from "react-typed";
+
 const Home = () => {
   return (
     <>
@@ -16,12 +16,8 @@ const Home = () => {
           </div>
           <div className="mx-5 txt">
             <h5>
-              <Typed
-                strings={[
-                  "  <i>Unlock</i> Your Productivity with MemoMate , Your Personal Digital Notebook.",
-                ]}
-                typeSpeed={50}
-              />
+                  "  Unlock Your Productivity with MemoMate , Your Personal Digital Notebook.",
+                
             </h5>
           </div>
           <div className="mx-5 my-5 row">
