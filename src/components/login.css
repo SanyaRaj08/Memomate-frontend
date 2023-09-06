@@ -1,0 +1,60 @@
+.image-container-login{
+  padding: 30px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: rgb(176, 196, 139);
+  position: relative;
+}
+  .login-img{
+    margin: 10px;
+    margin-left: 50px;
+    rotate: 10deg;
+    height: 450px;
+    opacity: 0.3;
+    overflow: hidden;
+  }
+  
+  .text-overlay {
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(35, 35, 35, 0.7);
+  color: #fff;
+  font-size: 18px;
+  padding: 50px;
+  font-weight: bold;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  
+  }
+  @media screen and (max-width: 767px) {
+    .login-img{
+      height: 400px;
+    }
+  }
+  @media screen and (max-width: 524px) {
+    .login-img{
+      height: 350px;
+    }
+  }
+  @media screen and (max-width: 471px) {
+    .login-img{
+      height: 300px;
+    }
+    .text-overlay{
+      width: 300px;
+  height: 300px;
+    }
+
+  }
+  @media screen and (max-width: 416px) {
+    .login-img{
+      height: 200px;
+    }
+    .text-overlay{
+      width: 250px;
+  height: 250px;
+  padding: 20px;
+    }
+  }

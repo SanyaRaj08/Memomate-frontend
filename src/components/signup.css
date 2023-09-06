@@ -1,0 +1,57 @@
+.image-container {
+  padding: 10px;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  background-color: rgb(176, 196, 139);
+  position: relative;
+}
+.form-image {
+  margin-left: 50px;
+  height: 500px;
+  opacity: 0.2;
+} 
+.text-overlay-signup {
+  width: 350px;
+  height: 400px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(35, 35, 35, 0.7);
+  color: #fff;
+  font-size: 18px;
+  padding: 50px;
+  font-weight: bold;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  
+}
+.frm-label{
+    margin-left: 10px;
+}
+@media screen and (max-width: 477px) {
+  .form-image {
+    height: 400px;
+  } 
+  /* CSS rules for screens up to 1024px wide */
+}
+@media screen and (max-width: 383px) {
+  .form-image {
+    height: 350px;
+  } 
+  .text-overlay-signup{
+    width: 300px;
+  height: 300px;
+  padding: 20px;
+  }
+  /* CSS rules for screens up to 1024px wide */
+}
+@media screen and (max-width: 345px) {
+  .form-image {
+    height: 300px;
+  } 
+  .text-overlay-signup{
+    width: 250px;
+  height: 300px;
+  padding: 1px;
+  }
+  /* CSS rules for screens up to 1024px wide */
+}
