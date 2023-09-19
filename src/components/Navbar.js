@@ -66,14 +66,14 @@ const Navbar = () => {
                 </button>
                 <ul class="dropdown-menu profile_info">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <Link class="dropdown-item" to="/">
                       {info.userName}
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <Link class="dropdown-item" to="/">
                       {info.email}
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>
