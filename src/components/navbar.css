@@ -35,6 +35,15 @@
 .btn-custom {
   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
 }
+.profile_info{
+  background-color: beige;
+  /* border: solid 2px rgb(58, 83, 8); */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0.2, 0.5);
+}
+.dropdown-item{
+  color: rgb(58, 83, 8);
+  font-weight: 900;
+}
 @media screen and (max-width: 1080px) {
   .nav-links-container .btn {
     margin: 5px;

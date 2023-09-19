@@ -26,7 +26,6 @@ const Login = (props) => {
     if (json.success) {
       //redirect
       localStorage.setItem("authToken", json.authToken);
-      console.log("authToken");
       props.showAlert("Logged in Successfully", "success");
       navigate("/Notes");
     } else {
